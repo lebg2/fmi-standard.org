@@ -1,7 +1,7 @@
 .tools-table {
   background: $blank;
   border-collapse: collapse;
-  width: 880px;
+  /*width: 880px;*/
   margin: 1rem 0;
 
   tr:nth-of-type(odd) {
@@ -16,11 +16,20 @@
     border-bottom: #e4e4e4 solid 3px;
     padding: 0.5rem;
   }
+  
+  tr.rownspan {
+    font-size: 0.8rem;
+    padding: 10px 10px; 
+  }
 
   td {
     background: none;
     padding: 0.08rem;
     border-bottom: #b1b1b1 solid 1px;
+  }
+  
+  &.fcell {
+    font-size: 0.9rem; 
   }
 
   &-hidden {
